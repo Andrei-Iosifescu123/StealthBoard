@@ -20,9 +20,10 @@
    ```
    pip install -r requirements.txt
    ```
-3. Run the tool:
+3. (Optional) Set OpenAI API key
+4. Run the tool:
    ```
-   python3 stealthboard.py
+   python3 main.py
    ```
 
 ## Usage
