@@ -30,7 +30,7 @@ def cl1p_get(cl1p_name):
 def cl1p_put(cl1p_id, content):
     try:
         url = f"https://cl1p.net/{cl1p_id}"
-        data = {"ttl": 0, "content": content}
+        data = {"ttl": 10, "content": content}
         response = requests.post(url, data=data)
         if response.status_code == 200:
             return "Cl1p updated successfully!"
